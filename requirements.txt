@@ -1,7 +1,8 @@
-# DO NOT include azure-functions-worker in this file
-# The Python Worker is managed by Azure Functions platform
-# Manually managing azure-functions-worker may cause unexpected issues
-
-azure-functions
+# Requirements for FastAPI application on Azure App Service
+fastapi
+uvicorn
+python-multipart
 requests
 pillow
+python-dotenv
+gunicorn
