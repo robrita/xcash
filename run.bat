@@ -11,4 +11,5 @@ echo Installing/Updating requirements...
 python -m pip install -r requirements.txt
 
 echo Starting python app...
-uvicorn app:app --reload
+@REM uvicorn app:app --reload
+streamlit run dashboard.py
